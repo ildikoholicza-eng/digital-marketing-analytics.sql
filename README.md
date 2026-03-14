@@ -31,41 +31,41 @@
 
  #### Data Pipeline Stages
 
-   1, Design & Integration
+  ##### 1, Design & Integration
       Before writing any code, I mapped the ecosystem to ensure all platforms could be 
       joined effectively:
       
         Data Flow Chart: Visualising the movement from local flat files to the visualisation layer.
 
-        Star Schema: Developed a central fact_sales table connected to dimensions including dim_table, dim_channel, and dim_campaign.
+        Star Schema: Developed a central fact_sales table connected to dimensions, including dim_table, dim_channel, and dim_campaign.
 
    2, The Medallion System (SQL)
       To maintain a high standard of data quality, the pipeline is split into three distinct layers:
         Bronze (Raw): Direct ingestion of local CSV files into staging tables.
-        Silver (Cleansed): Data type standardization, handling of NULLs, and deduplication across different marketing platforms.
-        Gold (Curated): Business-ready Views. This layer aggregates KPIs such as ROAS (Return on Ad Spend), CAC (Customer Acquasition Cost),
+        Silver (Cleansed): Data type standardisation, handling of NULLs, and deduplication across different marketing platforms.
+        Gold (Curated): Business-ready Views. This layer aggregates KPIs such as ROAS (Return on Ad Spend), CAC (Customer Acquisition Cost),
                         and Conversion Rates.
 
    3, Analysis & Insights
       Using the Gold Layer, I performed a deep dive into the 180-day data history:
        Exploratory Data Analysis (EDA):
-       Performed intial investigations to discover patters, spot anomalies, and check assumptions using SQL-based statistical summeries.
+       Performed initial investigations to discover patterns, spot anomalies, and check assumptions using SQL-based statistical summaries.
 
-       Explanatory Data Analysis: Synthesised the "why" behind the numbers. I transalated complex data patterns into clear, actionalble insights 
+       Explanatory Data Analysis: Synthesised the "why" behind the numbers. I translated complex data patterns into clear, actionable insights 
              for stakeholders, focusing on the drivers of marketing performance.
-       Forcasting Report: Developed a trend-based forcast for the upcoming month to assist in data-driven budget allocation.
-       Executive Presentation: A comprehensive slideshow transalation technical findings into strategic business suggestion.
+       Forecasting Report: Developed a trend-based forecast for the upcoming month to assist in data-driven budget allocation.
+       Executive Presentation: A comprehensive slideshow transalation technical findings into strategic business suggestions.
 
 #### Key Deliverables
 
       /Documentation: Draw.io diagrams (Data Flow & ERD).
       /SQL_Scripts: DDL for Star Schema and DML for Medallion transformations.
-      /REports: The Final Forecasting Report and the PowerPoint Presentation.
-      /Data: Samle CSV files used for the project.
+      /Reports: The Final Forecasting Report and the PowerPoint Presentation.
+      /Data: Sample CSV files used for the project.
 
 #### How to Navigate This Repository
 
     1, Review the Architecture Diagrams in the /Documentation folder.
-    2, Execute the SQL Scripts to recreate the Medallion anviroment. 
-    3, View the PowerPoint Presentation fort he summary of the marketing insights and the strategic recommendations. 
+    2, Execute the SQL Scripts to recreate the Medallion environment. 
+    3, View the PowerPoint Presentation for the summary of the marketing insights and the strategic recommendations. 
     
