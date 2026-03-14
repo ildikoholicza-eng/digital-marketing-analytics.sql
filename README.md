@@ -58,7 +58,7 @@
 
 #### Key Deliverables
 
-      /Documentation: Draw.io diagrams (Data Flow & ERD).
+####   /Documentation: Draw.io diagrams (Data Flow & ERD).
       /SQL_Scripts: DDL for Star Schema and DML for Medallion transformations.
       /Reports: The Final Forecasting Report and the PowerPoint Presentation.
       /Data: Sample CSV files used for the project.
