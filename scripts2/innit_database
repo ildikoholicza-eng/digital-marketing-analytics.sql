@@ -4,8 +4,16 @@ This Script creates the database MarketingData and the corresponding Schemas
 ============================================================================================
 ============================================================================================
 */
+USE master;
+--Drop and recreate the 'MarketingData' database in case it exists
+IF EXIST (SELECT 1 FROM sys.database WHERE name = 'MarketingData')
+BEGIN
+ALTER DATABASE MarketingData SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+DROP DATABASE MarketingData;
+END;
+GO 
 
-CREATE DATABASE 
+CREATE DATABASE ;
 MarketingData;
 
 USE MarketingData;
