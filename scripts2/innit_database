@@ -1,9 +1,18 @@
 /* 
 
 This Script creates the database MarketingData and the corresponding Schemas
+This Script creates a new database named 'MarketingData' after checking if it already exists. 
+If it exists, it is dropped and recreated. Additionally, the script sets up three schemas in the database: 'bronze', 'silver', ' gold'. 
+
+WARNING:
+Running this script will drop the entire 'MarketingData' if it exists. 
+All data in the database will be permanently deleted. Proceed with caution and ensure you have the proper backups 
+before running the script. 
 ============================================================================================
 ============================================================================================
 */
+
+
 USE master;
 --Drop and recreate the 'MarketingData' database in case it exists
 IF EXIST (SELECT 1 FROM sys.database WHERE name = 'MarketingData')
@@ -12,6 +21,9 @@ ALTER DATABASE MarketingData SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
 DROP DATABASE MarketingData;
 END;
 GO 
+
+--Creates the database 
+
 
 CREATE DATABASE ;
 MarketingData;
