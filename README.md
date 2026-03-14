@@ -90,4 +90,4 @@ I am now focused on developing my career in marketing analytics, growth marketin
 
 Currently learning: • Tableau • Advanced SQL for marketing data • Marketing KPI dashboards
 
-I’m particularly interested in opportunities where I can contribute to data
+I’m particularly interested in opportunities where I can contribute to data-driven marketing teams, e-commerce growth, and marketing performance analysis.
