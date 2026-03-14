@@ -68,4 +68,26 @@
     1, Review the Architecture Diagrams in the /Documentation folder.
     2, Execute the SQL Scripts to recreate the Medallion environment. 
     3, View the PowerPoint Presentation for the summary of the marketing insights and the strategic recommendations. 
+
+
+
+    ## About Me
     
+
+I am an HND Marketing graduate with a growing focus on marketing data analytics and data-driven decision making.
+
+During my digital marketing studies, I developed a strong interest in how data can improve marketing performance, optimise campaigns, and reveal customer insights.
+
+I am currently building practical skills in:
+
+• Marketing Analytics • Google Analytics 4 (GA4) • SQL for data analysis • Power BI & Power Query • Excel & Google Sheets for marketing reporting • SEO and search performance analysis • PPC and campaign performance tracking
+
+Alongside my marketing education, I previously ran and managed my own business, where I used booking system analytics, social media insights, and customer behaviour data to improve client retention and revenue.
+
+This experience taught me how data can drive real business decisions, even in small companies with limited marketing budgets.
+
+I am now focused on developing my career in marketing analytics, growth marketing, and digital marketing performance analysis.
+
+Currently learning: • Tableau • Advanced SQL for marketing data • Marketing KPI dashboards
+
+I’m particularly interested in opportunities where I can contribute to data
