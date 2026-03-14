@@ -21,3 +21,20 @@
   5, Visualisation: Dashboard connected to the SQL Gold Layer and a final executive presentation.
 
   #### Technical Stack 
+
+   Database: Microsoft SQL Server (T-SQL)
+   Modelling: Star Schema/ Dimensional Modelling
+   Architecture: Medallion System (Raw-> Cleansed-> Curated)
+   Design Tools: Draw.io and Notion
+   Visualisation: Tableau
+   Reporting: PowerPoint (Executive Summary & Suggestions)
+
+ #### Data Pipeline Stages
+
+   1, Design & Integration
+      Before writing any code, I mapped the ecosystem to ensure all platforms could be 
+      joined effectively:
+      
+        Data Flow Chart: Visualising the movement from local flat files to the visualisation layer.
+
+        Star Schema: Developed a central fact_sales tablű        
